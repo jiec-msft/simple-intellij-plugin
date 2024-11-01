@@ -1,0 +1,779 @@
+Initialized native services in: /Users/vscjava/.gradle/native
+Initialized jansi services in: /Users/vscjava/.gradle/native
+Received JVM installation metadata from '/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home': {JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home, JAVA_VERSION=17.0.13, JAVA_VENDOR=Azul Systems, Inc., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=17.0.13+11-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=17.0.13+11-LTS, VM_VENDOR=Azul Systems, Inc., OS_ARCH=x86_64}
+The client will now receive all logging from the daemon (pid: 21282). The daemon log file: /Users/vscjava/.gradle/daemon/8.10.2/daemon-21282.out.log
+Starting 4th build in daemon [uptime: 24 mins 23.941 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 41% of 384 MiB]
+Using 6 worker leases.
+Now considering [/Users/vscjava/repos/simple-intellij-plugin] as hierarchies to watch
+Calculating task graph as configuration cache cannot be reused because file 'build.gradle.kts' has changed.
+Now considering [/Users/vscjava/repos/simple-intellij-plugin] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Transforming foojay-resolver-0.8.0.jar (org.gradle.toolchains:foojay-resolver:0.8.0) with InstrumentationAnalysisTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with InstrumentationAnalysisTransform
+Transforming foojay-resolver-0.8.0.jar (org.gradle.toolchains:foojay-resolver:0.8.0) with InstrumentationAnalysisTransform
+Transforming foojay-resolver-0.8.0.jar (org.gradle.toolchains:foojay-resolver:0.8.0) with MergeInstrumentationAnalysisTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with InstrumentationAnalysisTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with MergeInstrumentationAnalysisTransform
+Transforming foojay-resolver-0.8.0.jar (org.gradle.toolchains:foojay-resolver:0.8.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with ExternalDependencyInstrumentingArtifactTransform
+Settings evaluated using settings file '/Users/vscjava/repos/simple-intellij-plugin/settings.gradle.kts'.
+Using local directory build cache for the root build (location = /Users/vscjava/.gradle/caches/build-cache-1, removeUnusedEntriesAfter = 7 days).
+Projects loaded. Root project using build file '/Users/vscjava/repos/simple-intellij-plugin/build.gradle.kts'.
+Included projects: [root project 'simple-intellij-plugin']
+
+> Configure project :
+Evaluating root project 'simple-intellij-plugin' using build file '/Users/vscjava/repos/simple-intellij-plugin/build.gradle.kts'.
+Build cache key for Kotlin DSL script compilation (Project/TopLevel/stage1) is 15535f7236756ba62fcdbfd6da8856c1
+Stored cache entry for Kotlin DSL script compilation (Project/TopLevel/stage1) with cache key 15535f7236756ba62fcdbfd6da8856c1
+Transforming intellij-platform-gradle-plugin-2.1.0.jar (org.jetbrains.intellij.platform:intellij-platform-gradle-plugin:2.1.0) with InstrumentationAnalysisTransform
+Transforming xmlutil-jvm-0.86.3.jar (io.github.pdvrieze.xmlutil:core-jvm:0.86.3) with InstrumentationAnalysisTransform
+Transforming xmlutil-serialization-jvm-0.86.3.jar (io.github.pdvrieze.xmlutil:serialization-jvm:0.86.3) with InstrumentationAnalysisTransform
+Transforming kover-gradle-plugin-0.8.3.jar (org.jetbrains.kotlinx:kover-gradle-plugin:0.8.3) with InstrumentationAnalysisTransform
+Transforming kover-features-jvm-0.8.3.jar (org.jetbrains.kotlinx:kover-features-jvm:0.8.3) with InstrumentationAnalysisTransform
+Transforming plugin-repository-rest-client-2.0.39.jar (org.jetbrains.intellij:plugin-repository-rest-client:2.0.39) with InstrumentationAnalysisTransform
+Transforming converter-jaxb-2.9.0.jar (com.squareup.retrofit2:converter-jaxb:2.9.0) with InstrumentationAnalysisTransform
+Transforming converter-jackson-2.9.0.jar (com.squareup.retrofit2:converter-jackson:2.9.0) with InstrumentationAnalysisTransform
+Transforming retrofit-2.11.0.jar (com.squareup.retrofit2:retrofit:2.11.0) with InstrumentationAnalysisTransform
+Transforming okhttp-4.4.1.jar (com.squareup.okhttp3:okhttp:4.4.1) with InstrumentationAnalysisTransform
+Transforming kotlin-stdlib-jdk8-1.9.21.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.21) with InstrumentationAnalysisTransform
+Transforming kotlinx-serialization-core-jvm-1.6.3.jar (org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.6.3) with InstrumentationAnalysisTransform
+Transforming kotlinx-serialization-json-jvm-1.6.3.jar (org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.3) with InstrumentationAnalysisTransform
+Transforming okio-jvm-2.4.3.jar (com.squareup.okio:okio:2.4.3) with InstrumentationAnalysisTransform
+Transforming kotlin-stdlib-jdk7-1.9.21.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.21) with InstrumentationAnalysisTransform
+Transforming kotlin-stdlib-1.9.24.jar (org.jetbrains.kotlin:kotlin-stdlib:1.9.24) with InstrumentationAnalysisTransform
+Transforming structure-intellij-3.287.jar (org.jetbrains.intellij.plugins:structure-intellij:3.287) with InstrumentationAnalysisTransform
+Transforming structure-base-3.287.jar (org.jetbrains.intellij.plugins:structure-base:3.287) with InstrumentationAnalysisTransform
+Transforming intellij-coverage-reporter-1.0.761.jar (org.jetbrains.intellij.deps:intellij-coverage-reporter:1.0.761) with InstrumentationAnalysisTransform
+Transforming coverage-report-1.0.25.jar (org.jetbrains.intellij.deps:coverage-report:1.0.25) with InstrumentationAnalysisTransform
+Transforming annotations-13.0.jar (org.jetbrains:annotations:13.0) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-model-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-model:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-1.9.25-gradle82.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.25) with InstrumentationAnalysisTransform
+Transforming gradle-changelog-plugin-2.2.1.jar (org.jetbrains.intellij.plugins:gradle-changelog-plugin:2.2.1) with InstrumentationAnalysisTransform
+Transforming plugin-2024.2.3.jar (org.jetbrains.qodana:plugin:2024.2.3) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-idea-proto-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-idea-proto:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-idea-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-idea:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-klib-commonizer-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-klib-commonizer-api:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-native-utils-1.9.25.jar (org.jetbrains.kotlin:kotlin-native-utils:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-util-klib-1.9.25.jar (org.jetbrains.kotlin:kotlin-util-klib:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-build-tools-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-build-tools-api:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-android-extensions-1.9.25.jar (org.jetbrains.kotlin:kotlin-android-extensions:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-compiler-runner-1.9.25.jar (org.jetbrains.kotlin:kotlin-compiler-runner:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-compiler-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-scripting-compiler-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-scripting-compiler-impl-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.9.25) with InstrumentationAnalysisTransform
+Transforming undertow-core-2.3.17.Final.jar (io.undertow:undertow-core:2.3.17.Final) with InstrumentationAnalysisTransform
+Transforming kover-jvm-agent-0.8.3.jar (org.jetbrains.kotlinx:kover-jvm-agent:0.8.3) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-annotations-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-annotations:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-project-model-1.9.25.jar (org.jetbrains.kotlin:kotlin-project-model:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-tooling-core-1.9.25.jar (org.jetbrains.kotlin:kotlin-tooling-core:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-util-io-1.9.25.jar (org.jetbrains.kotlin:kotlin-util-io:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-daemon-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-daemon-embeddable:1.9.25) with InstrumentationAnalysisTransform
+Transforming trove4j-1.0.20200330.jar (org.jetbrains.intellij.deps:trove4j:1.0.20200330) with InstrumentationAnalysisTransform
+Transforming kotlin-daemon-client-1.9.25.jar (org.jetbrains.kotlin:kotlin-daemon-client:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlinx-coroutines-core-jvm-1.5.0.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.0) with InstrumentationAnalysisTransform
+Transforming kotlin-scripting-jvm-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-scripting-common-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-common:1.9.25) with InstrumentationAnalysisTransform
+Transforming xnio-nio-3.8.16.Final.jar (org.jboss.xnio:xnio-nio:3.8.16.Final) with InstrumentationAnalysisTransform
+Transforming xnio-api-3.8.16.Final.jar (org.jboss.xnio:xnio-api:3.8.16.Final) with InstrumentationAnalysisTransform
+Transforming wildfly-client-config-1.0.1.Final.jar (org.wildfly.client:wildfly-client-config:1.0.1.Final) with InstrumentationAnalysisTransform
+Transforming jboss-threads-3.5.0.Final.jar (org.jboss.threads:jboss-threads:3.5.0.Final) with InstrumentationAnalysisTransform
+Transforming jboss-logging-3.4.3.Final.jar (org.jboss.logging:jboss-logging:3.4.3.Final) with InstrumentationAnalysisTransform
+Transforming jackson-databind-2.14.2.jar (com.fasterxml.jackson.core:jackson-databind:2.14.2) with InstrumentationAnalysisTransform
+Transforming jackson-annotations-2.14.2.jar (com.fasterxml.jackson.core:jackson-annotations:2.14.2) with InstrumentationAnalysisTransform
+Transforming jackson-core-2.14.2.jar (com.fasterxml.jackson.core:jackson-core:2.14.2) with InstrumentationAnalysisTransform
+Transforming jackson-module-kotlin-2.14.2.jar (com.fasterxml.jackson.module:jackson-module-kotlin:2.14.2) with InstrumentationAnalysisTransform
+Transforming commons-compress-1.27.1.jar (org.apache.commons:commons-compress:1.27.1) with InstrumentationAnalysisTransform
+Transforming xz-1.9.jar (org.tukaani:xz:1.9) with InstrumentationAnalysisTransform
+Transforming evo-inflector-1.3.jar (org.atteo:evo-inflector:1.3) with InstrumentationAnalysisTransform
+Transforming slf4j-api-2.0.7.jar (org.slf4j:slf4j-api:2.0.7) with InstrumentationAnalysisTransform
+Transforming commons-io-2.16.1.jar (commons-io:commons-io:2.16.1) with InstrumentationAnalysisTransform
+Transforming jsoup-1.16.1.jar (org.jsoup:jsoup:1.16.1) with InstrumentationAnalysisTransform
+Transforming jaxb-runtime-2.3.1.jar (org.glassfish.jaxb:jaxb-runtime:2.3.1) with InstrumentationAnalysisTransform
+Transforming jaxb-api-2.3.1.jar (javax.xml.bind:jaxb-api:2.3.1) with InstrumentationAnalysisTransform
+Transforming jdom2-2.0.6.1.jar (org.jdom:jdom2:2.0.6.1) with InstrumentationAnalysisTransform
+Transforming blockmap-1.0.5.jar (org.jetbrains.intellij:blockmap:1.0.5) with InstrumentationAnalysisTransform
+Transforming jaxb-impl-2.3.2.jar (com.sun.xml.bind:jaxb-impl:2.3.2) with InstrumentationAnalysisTransform
+Transforming jaxb-core-2.3.0.jar (com.sun.xml.bind:jaxb-core:2.3.0) with InstrumentationAnalysisTransform
+Transforming markdown-jvm-0.7.3.jar (org.jetbrains:markdown-jvm:0.7.3) with InstrumentationAnalysisTransform
+Transforming wildfly-common-1.5.4.Final.jar (org.wildfly.common:wildfly-common:1.5.4.Final) with InstrumentationAnalysisTransform
+Transforming commons-codec-1.17.1.jar (commons-codec:commons-codec:1.17.1) with InstrumentationAnalysisTransform
+Transforming commons-lang3-3.16.0.jar (org.apache.commons:commons-lang3:3.16.0) with InstrumentationAnalysisTransform
+Transforming javax.activation-api-1.2.0.jar (javax.activation:javax.activation-api:1.2.0) with InstrumentationAnalysisTransform
+Transforming txw2-2.3.1.jar (org.glassfish.jaxb:txw2:2.3.1) with InstrumentationAnalysisTransform
+Transforming istack-commons-runtime-3.0.7.jar (com.sun.istack:istack-commons-runtime:3.0.7) with InstrumentationAnalysisTransform
+Transforming stax-ex-1.8.jar (org.jvnet.staxex:stax-ex:1.8) with InstrumentationAnalysisTransform
+Transforming FastInfoset-1.2.15.jar (com.sun.xml.fastinfoset:FastInfoset:1.2.15) with InstrumentationAnalysisTransform
+Transforming intellij-coverage-agent-1.0.761.jar (org.jetbrains.intellij.deps:intellij-coverage-agent:1.0.761) with InstrumentationAnalysisTransform
+Transforming freemarker-2.3.32.jar (org.freemarker:freemarker:2.3.32) with InstrumentationAnalysisTransform
+Transforming intellij-platform-gradle-plugin-2.1.0.jar (org.jetbrains.intellij.platform:intellij-platform-gradle-plugin:2.1.0) with InstrumentationAnalysisTransform
+Transforming intellij-platform-gradle-plugin-2.1.0.jar (org.jetbrains.intellij.platform:intellij-platform-gradle-plugin:2.1.0) with MergeInstrumentationAnalysisTransform
+Transforming xmlutil-jvm-0.86.3.jar (io.github.pdvrieze.xmlutil:core-jvm:0.86.3) with InstrumentationAnalysisTransform
+Transforming xmlutil-jvm-0.86.3.jar (io.github.pdvrieze.xmlutil:core-jvm:0.86.3) with MergeInstrumentationAnalysisTransform
+Transforming xmlutil-serialization-jvm-0.86.3.jar (io.github.pdvrieze.xmlutil:serialization-jvm:0.86.3) with InstrumentationAnalysisTransform
+Transforming xmlutil-serialization-jvm-0.86.3.jar (io.github.pdvrieze.xmlutil:serialization-jvm:0.86.3) with MergeInstrumentationAnalysisTransform
+Transforming kover-gradle-plugin-0.8.3.jar (org.jetbrains.kotlinx:kover-gradle-plugin:0.8.3) with InstrumentationAnalysisTransform
+Transforming kover-gradle-plugin-0.8.3.jar (org.jetbrains.kotlinx:kover-gradle-plugin:0.8.3) with MergeInstrumentationAnalysisTransform
+Transforming kover-features-jvm-0.8.3.jar (org.jetbrains.kotlinx:kover-features-jvm:0.8.3) with InstrumentationAnalysisTransform
+Transforming kover-features-jvm-0.8.3.jar (org.jetbrains.kotlinx:kover-features-jvm:0.8.3) with MergeInstrumentationAnalysisTransform
+Transforming plugin-repository-rest-client-2.0.39.jar (org.jetbrains.intellij:plugin-repository-rest-client:2.0.39) with InstrumentationAnalysisTransform
+Transforming plugin-repository-rest-client-2.0.39.jar (org.jetbrains.intellij:plugin-repository-rest-client:2.0.39) with MergeInstrumentationAnalysisTransform
+Transforming converter-jaxb-2.9.0.jar (com.squareup.retrofit2:converter-jaxb:2.9.0) with InstrumentationAnalysisTransform
+Transforming converter-jaxb-2.9.0.jar (com.squareup.retrofit2:converter-jaxb:2.9.0) with MergeInstrumentationAnalysisTransform
+Transforming converter-jackson-2.9.0.jar (com.squareup.retrofit2:converter-jackson:2.9.0) with InstrumentationAnalysisTransform
+Transforming converter-jackson-2.9.0.jar (com.squareup.retrofit2:converter-jackson:2.9.0) with MergeInstrumentationAnalysisTransform
+Transforming retrofit-2.11.0.jar (com.squareup.retrofit2:retrofit:2.11.0) with InstrumentationAnalysisTransform
+Transforming retrofit-2.11.0.jar (com.squareup.retrofit2:retrofit:2.11.0) with MergeInstrumentationAnalysisTransform
+Transforming okhttp-4.4.1.jar (com.squareup.okhttp3:okhttp:4.4.1) with InstrumentationAnalysisTransform
+Transforming okhttp-4.4.1.jar (com.squareup.okhttp3:okhttp:4.4.1) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-stdlib-jdk8-1.9.21.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.21) with InstrumentationAnalysisTransform
+Transforming kotlin-stdlib-jdk8-1.9.21.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.21) with MergeInstrumentationAnalysisTransform
+Transforming kotlinx-serialization-core-jvm-1.6.3.jar (org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.6.3) with InstrumentationAnalysisTransform
+Transforming kotlinx-serialization-core-jvm-1.6.3.jar (org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.6.3) with MergeInstrumentationAnalysisTransform
+Transforming kotlinx-serialization-json-jvm-1.6.3.jar (org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.3) with InstrumentationAnalysisTransform
+Transforming kotlinx-serialization-json-jvm-1.6.3.jar (org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.3) with MergeInstrumentationAnalysisTransform
+Transforming okio-jvm-2.4.3.jar (com.squareup.okio:okio:2.4.3) with InstrumentationAnalysisTransform
+Transforming okio-jvm-2.4.3.jar (com.squareup.okio:okio:2.4.3) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-stdlib-jdk7-1.9.21.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.21) with InstrumentationAnalysisTransform
+Transforming kotlin-stdlib-jdk7-1.9.21.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.21) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-stdlib-1.9.24.jar (org.jetbrains.kotlin:kotlin-stdlib:1.9.24) with InstrumentationAnalysisTransform
+Transforming kotlin-stdlib-1.9.24.jar (org.jetbrains.kotlin:kotlin-stdlib:1.9.24) with MergeInstrumentationAnalysisTransform
+Transforming structure-intellij-3.287.jar (org.jetbrains.intellij.plugins:structure-intellij:3.287) with InstrumentationAnalysisTransform
+Transforming structure-intellij-3.287.jar (org.jetbrains.intellij.plugins:structure-intellij:3.287) with MergeInstrumentationAnalysisTransform
+Transforming structure-base-3.287.jar (org.jetbrains.intellij.plugins:structure-base:3.287) with InstrumentationAnalysisTransform
+Transforming structure-base-3.287.jar (org.jetbrains.intellij.plugins:structure-base:3.287) with MergeInstrumentationAnalysisTransform
+Transforming intellij-coverage-reporter-1.0.761.jar (org.jetbrains.intellij.deps:intellij-coverage-reporter:1.0.761) with InstrumentationAnalysisTransform
+Transforming intellij-coverage-reporter-1.0.761.jar (org.jetbrains.intellij.deps:intellij-coverage-reporter:1.0.761) with MergeInstrumentationAnalysisTransform
+Transforming coverage-report-1.0.25.jar (org.jetbrains.intellij.deps:coverage-report:1.0.25) with InstrumentationAnalysisTransform
+Transforming coverage-report-1.0.25.jar (org.jetbrains.intellij.deps:coverage-report:1.0.25) with MergeInstrumentationAnalysisTransform
+Transforming annotations-13.0.jar (org.jetbrains:annotations:13.0) with InstrumentationAnalysisTransform
+Transforming annotations-13.0.jar (org.jetbrains:annotations:13.0) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-model-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-model:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-model-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-model:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-1.9.25-gradle82.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-1.9.25-gradle82.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming gradle-changelog-plugin-2.2.1.jar (org.jetbrains.intellij.plugins:gradle-changelog-plugin:2.2.1) with InstrumentationAnalysisTransform
+Transforming gradle-changelog-plugin-2.2.1.jar (org.jetbrains.intellij.plugins:gradle-changelog-plugin:2.2.1) with MergeInstrumentationAnalysisTransform
+Transforming plugin-2024.2.3.jar (org.jetbrains.qodana:plugin:2024.2.3) with InstrumentationAnalysisTransform
+Transforming plugin-2024.2.3.jar (org.jetbrains.qodana:plugin:2024.2.3) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-idea-proto-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-idea-proto:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-idea-proto-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-idea-proto:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-idea-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-idea:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-idea-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-idea:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-klib-commonizer-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-klib-commonizer-api:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-klib-commonizer-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-klib-commonizer-api:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-native-utils-1.9.25.jar (org.jetbrains.kotlin:kotlin-native-utils:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-native-utils-1.9.25.jar (org.jetbrains.kotlin:kotlin-native-utils:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-util-klib-1.9.25.jar (org.jetbrains.kotlin:kotlin-util-klib:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-util-klib-1.9.25.jar (org.jetbrains.kotlin:kotlin-util-klib:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-build-tools-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-build-tools-api:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-build-tools-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-build-tools-api:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-android-extensions-1.9.25.jar (org.jetbrains.kotlin:kotlin-android-extensions:1.9.25) with InstrumentationAnalysisTransform
+Transforming xmlutil-serialization-jvm-0.86.3.jar (io.github.pdvrieze.xmlutil:serialization-jvm:0.86.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-android-extensions-1.9.25.jar (org.jetbrains.kotlin:kotlin-android-extensions:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-compiler-runner-1.9.25.jar (org.jetbrains.kotlin:kotlin-compiler-runner:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-compiler-runner-1.9.25.jar (org.jetbrains.kotlin:kotlin-compiler-runner:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-compiler-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-compiler-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming xmlutil-jvm-0.86.3.jar (io.github.pdvrieze.xmlutil:core-jvm:0.86.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kover-features-jvm-0.8.3.jar (org.jetbrains.kotlinx:kover-features-jvm:0.8.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-compiler-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.9.25) with InstrumentationAnalysisTransform
+Transforming kover-gradle-plugin-0.8.3.jar (org.jetbrains.kotlinx:kover-gradle-plugin:0.8.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-compiler-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming intellij-platform-gradle-plugin-2.1.0.jar (org.jetbrains.intellij.platform:intellij-platform-gradle-plugin:2.1.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-compiler-impl-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-scripting-compiler-impl-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming undertow-core-2.3.17.Final.jar (io.undertow:undertow-core:2.3.17.Final) with InstrumentationAnalysisTransform
+Transforming undertow-core-2.3.17.Final.jar (io.undertow:undertow-core:2.3.17.Final) with MergeInstrumentationAnalysisTransform
+Transforming kover-jvm-agent-0.8.3.jar (org.jetbrains.kotlinx:kover-jvm-agent:0.8.3) with InstrumentationAnalysisTransform
+Transforming kover-jvm-agent-0.8.3.jar (org.jetbrains.kotlinx:kover-jvm-agent:0.8.3) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-annotations-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-annotations:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-gradle-plugin-annotations-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-annotations:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-project-model-1.9.25.jar (org.jetbrains.kotlin:kotlin-project-model:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-project-model-1.9.25.jar (org.jetbrains.kotlin:kotlin-project-model:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-tooling-core-1.9.25.jar (org.jetbrains.kotlin:kotlin-tooling-core:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-tooling-core-1.9.25.jar (org.jetbrains.kotlin:kotlin-tooling-core:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-util-io-1.9.25.jar (org.jetbrains.kotlin:kotlin-util-io:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-util-io-1.9.25.jar (org.jetbrains.kotlin:kotlin-util-io:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-daemon-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-daemon-embeddable:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-daemon-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-daemon-embeddable:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming trove4j-1.0.20200330.jar (org.jetbrains.intellij.deps:trove4j:1.0.20200330) with InstrumentationAnalysisTransform
+Transforming trove4j-1.0.20200330.jar (org.jetbrains.intellij.deps:trove4j:1.0.20200330) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-daemon-client-1.9.25.jar (org.jetbrains.kotlin:kotlin-daemon-client:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-daemon-client-1.9.25.jar (org.jetbrains.kotlin:kotlin-daemon-client:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlinx-coroutines-core-jvm-1.5.0.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.0) with InstrumentationAnalysisTransform
+Transforming kotlinx-coroutines-core-jvm-1.5.0.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.0) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-scripting-jvm-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-scripting-jvm-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-scripting-common-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-common:1.9.25) with InstrumentationAnalysisTransform
+Transforming kotlin-scripting-common-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-common:1.9.25) with MergeInstrumentationAnalysisTransform
+Transforming xnio-nio-3.8.16.Final.jar (org.jboss.xnio:xnio-nio:3.8.16.Final) with InstrumentationAnalysisTransform
+Transforming xnio-nio-3.8.16.Final.jar (org.jboss.xnio:xnio-nio:3.8.16.Final) with MergeInstrumentationAnalysisTransform
+Transforming xnio-api-3.8.16.Final.jar (org.jboss.xnio:xnio-api:3.8.16.Final) with InstrumentationAnalysisTransform
+Transforming xnio-api-3.8.16.Final.jar (org.jboss.xnio:xnio-api:3.8.16.Final) with MergeInstrumentationAnalysisTransform
+Transforming wildfly-client-config-1.0.1.Final.jar (org.wildfly.client:wildfly-client-config:1.0.1.Final) with InstrumentationAnalysisTransform
+Transforming wildfly-client-config-1.0.1.Final.jar (org.wildfly.client:wildfly-client-config:1.0.1.Final) with MergeInstrumentationAnalysisTransform
+Transforming jboss-threads-3.5.0.Final.jar (org.jboss.threads:jboss-threads:3.5.0.Final) with InstrumentationAnalysisTransform
+Transforming jboss-threads-3.5.0.Final.jar (org.jboss.threads:jboss-threads:3.5.0.Final) with MergeInstrumentationAnalysisTransform
+Transforming jboss-logging-3.4.3.Final.jar (org.jboss.logging:jboss-logging:3.4.3.Final) with InstrumentationAnalysisTransform
+Transforming jboss-logging-3.4.3.Final.jar (org.jboss.logging:jboss-logging:3.4.3.Final) with MergeInstrumentationAnalysisTransform
+Transforming jackson-databind-2.14.2.jar (com.fasterxml.jackson.core:jackson-databind:2.14.2) with InstrumentationAnalysisTransform
+Transforming jackson-databind-2.14.2.jar (com.fasterxml.jackson.core:jackson-databind:2.14.2) with MergeInstrumentationAnalysisTransform
+Transforming jackson-annotations-2.14.2.jar (com.fasterxml.jackson.core:jackson-annotations:2.14.2) with InstrumentationAnalysisTransform
+Transforming jackson-annotations-2.14.2.jar (com.fasterxml.jackson.core:jackson-annotations:2.14.2) with MergeInstrumentationAnalysisTransform
+Transforming jackson-core-2.14.2.jar (com.fasterxml.jackson.core:jackson-core:2.14.2) with InstrumentationAnalysisTransform
+Transforming jackson-core-2.14.2.jar (com.fasterxml.jackson.core:jackson-core:2.14.2) with MergeInstrumentationAnalysisTransform
+Transforming jackson-module-kotlin-2.14.2.jar (com.fasterxml.jackson.module:jackson-module-kotlin:2.14.2) with InstrumentationAnalysisTransform
+Transforming jackson-module-kotlin-2.14.2.jar (com.fasterxml.jackson.module:jackson-module-kotlin:2.14.2) with MergeInstrumentationAnalysisTransform
+Transforming commons-compress-1.27.1.jar (org.apache.commons:commons-compress:1.27.1) with InstrumentationAnalysisTransform
+Transforming commons-compress-1.27.1.jar (org.apache.commons:commons-compress:1.27.1) with MergeInstrumentationAnalysisTransform
+Transforming xz-1.9.jar (org.tukaani:xz:1.9) with InstrumentationAnalysisTransform
+Transforming xz-1.9.jar (org.tukaani:xz:1.9) with MergeInstrumentationAnalysisTransform
+Transforming evo-inflector-1.3.jar (org.atteo:evo-inflector:1.3) with InstrumentationAnalysisTransform
+Transforming evo-inflector-1.3.jar (org.atteo:evo-inflector:1.3) with MergeInstrumentationAnalysisTransform
+Transforming slf4j-api-2.0.7.jar (org.slf4j:slf4j-api:2.0.7) with InstrumentationAnalysisTransform
+Transforming slf4j-api-2.0.7.jar (org.slf4j:slf4j-api:2.0.7) with MergeInstrumentationAnalysisTransform
+Transforming commons-io-2.16.1.jar (commons-io:commons-io:2.16.1) with InstrumentationAnalysisTransform
+Transforming commons-io-2.16.1.jar (commons-io:commons-io:2.16.1) with MergeInstrumentationAnalysisTransform
+Transforming jsoup-1.16.1.jar (org.jsoup:jsoup:1.16.1) with InstrumentationAnalysisTransform
+Transforming jsoup-1.16.1.jar (org.jsoup:jsoup:1.16.1) with MergeInstrumentationAnalysisTransform
+Transforming jaxb-runtime-2.3.1.jar (org.glassfish.jaxb:jaxb-runtime:2.3.1) with InstrumentationAnalysisTransform
+Transforming jaxb-runtime-2.3.1.jar (org.glassfish.jaxb:jaxb-runtime:2.3.1) with MergeInstrumentationAnalysisTransform
+Transforming jaxb-api-2.3.1.jar (javax.xml.bind:jaxb-api:2.3.1) with InstrumentationAnalysisTransform
+Transforming jaxb-api-2.3.1.jar (javax.xml.bind:jaxb-api:2.3.1) with MergeInstrumentationAnalysisTransform
+Transforming jdom2-2.0.6.1.jar (org.jdom:jdom2:2.0.6.1) with InstrumentationAnalysisTransform
+Transforming jdom2-2.0.6.1.jar (org.jdom:jdom2:2.0.6.1) with MergeInstrumentationAnalysisTransform
+Transforming blockmap-1.0.5.jar (org.jetbrains.intellij:blockmap:1.0.5) with InstrumentationAnalysisTransform
+Transforming converter-jaxb-2.9.0.jar (com.squareup.retrofit2:converter-jaxb:2.9.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming retrofit-2.11.0.jar (com.squareup.retrofit2:retrofit:2.11.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming blockmap-1.0.5.jar (org.jetbrains.intellij:blockmap:1.0.5) with MergeInstrumentationAnalysisTransform
+Transforming jaxb-impl-2.3.2.jar (com.sun.xml.bind:jaxb-impl:2.3.2) with InstrumentationAnalysisTransform
+Transforming jaxb-impl-2.3.2.jar (com.sun.xml.bind:jaxb-impl:2.3.2) with MergeInstrumentationAnalysisTransform
+Transforming jaxb-core-2.3.0.jar (com.sun.xml.bind:jaxb-core:2.3.0) with InstrumentationAnalysisTransform
+Transforming jaxb-core-2.3.0.jar (com.sun.xml.bind:jaxb-core:2.3.0) with MergeInstrumentationAnalysisTransform
+Transforming markdown-jvm-0.7.3.jar (org.jetbrains:markdown-jvm:0.7.3) with InstrumentationAnalysisTransform
+Transforming converter-jackson-2.9.0.jar (com.squareup.retrofit2:converter-jackson:2.9.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming okhttp-4.4.1.jar (com.squareup.okhttp3:okhttp:4.4.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming plugin-repository-rest-client-2.0.39.jar (org.jetbrains.intellij:plugin-repository-rest-client:2.0.39) with ExternalDependencyInstrumentingArtifactTransform
+Transforming markdown-jvm-0.7.3.jar (org.jetbrains:markdown-jvm:0.7.3) with MergeInstrumentationAnalysisTransform
+Transforming wildfly-common-1.5.4.Final.jar (org.wildfly.common:wildfly-common:1.5.4.Final) with InstrumentationAnalysisTransform
+Transforming wildfly-common-1.5.4.Final.jar (org.wildfly.common:wildfly-common:1.5.4.Final) with MergeInstrumentationAnalysisTransform
+Transforming commons-codec-1.17.1.jar (commons-codec:commons-codec:1.17.1) with InstrumentationAnalysisTransform
+Transforming commons-codec-1.17.1.jar (commons-codec:commons-codec:1.17.1) with MergeInstrumentationAnalysisTransform
+Transforming commons-lang3-3.16.0.jar (org.apache.commons:commons-lang3:3.16.0) with InstrumentationAnalysisTransform
+Transforming commons-lang3-3.16.0.jar (org.apache.commons:commons-lang3:3.16.0) with MergeInstrumentationAnalysisTransform
+Transforming javax.activation-api-1.2.0.jar (javax.activation:javax.activation-api:1.2.0) with InstrumentationAnalysisTransform
+Transforming javax.activation-api-1.2.0.jar (javax.activation:javax.activation-api:1.2.0) with MergeInstrumentationAnalysisTransform
+Transforming txw2-2.3.1.jar (org.glassfish.jaxb:txw2:2.3.1) with InstrumentationAnalysisTransform
+Transforming txw2-2.3.1.jar (org.glassfish.jaxb:txw2:2.3.1) with MergeInstrumentationAnalysisTransform
+Transforming istack-commons-runtime-3.0.7.jar (com.sun.istack:istack-commons-runtime:3.0.7) with InstrumentationAnalysisTransform
+Transforming istack-commons-runtime-3.0.7.jar (com.sun.istack:istack-commons-runtime:3.0.7) with MergeInstrumentationAnalysisTransform
+Transforming stax-ex-1.8.jar (org.jvnet.staxex:stax-ex:1.8) with InstrumentationAnalysisTransform
+Transforming stax-ex-1.8.jar (org.jvnet.staxex:stax-ex:1.8) with MergeInstrumentationAnalysisTransform
+Transforming FastInfoset-1.2.15.jar (com.sun.xml.fastinfoset:FastInfoset:1.2.15) with InstrumentationAnalysisTransform
+Transforming FastInfoset-1.2.15.jar (com.sun.xml.fastinfoset:FastInfoset:1.2.15) with MergeInstrumentationAnalysisTransform
+Transforming intellij-coverage-agent-1.0.761.jar (org.jetbrains.intellij.deps:intellij-coverage-agent:1.0.761) with InstrumentationAnalysisTransform
+Transforming intellij-coverage-agent-1.0.761.jar (org.jetbrains.intellij.deps:intellij-coverage-agent:1.0.761) with MergeInstrumentationAnalysisTransform
+Transforming freemarker-2.3.32.jar (org.freemarker:freemarker:2.3.32) with InstrumentationAnalysisTransform
+Transforming freemarker-2.3.32.jar (org.freemarker:freemarker:2.3.32) with MergeInstrumentationAnalysisTransform
+Transforming kotlin-stdlib-jdk8-1.9.21.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.21) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlinx-serialization-core-jvm-1.6.3.jar (org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.6.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlinx-serialization-json-jvm-1.6.3.jar (org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-stdlib-jdk7-1.9.21.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.21) with ExternalDependencyInstrumentingArtifactTransform
+Transforming okio-jvm-2.4.3.jar (com.squareup.okio:okio:2.4.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-stdlib-1.9.24.jar (org.jetbrains.kotlin:kotlin-stdlib:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming structure-base-3.287.jar (org.jetbrains.intellij.plugins:structure-base:3.287) with ExternalDependencyInstrumentingArtifactTransform
+Transforming structure-intellij-3.287.jar (org.jetbrains.intellij.plugins:structure-intellij:3.287) with ExternalDependencyInstrumentingArtifactTransform
+Transforming intellij-coverage-reporter-1.0.761.jar (org.jetbrains.intellij.deps:intellij-coverage-reporter:1.0.761) with ExternalDependencyInstrumentingArtifactTransform
+Transforming coverage-report-1.0.25.jar (org.jetbrains.intellij.deps:coverage-report:1.0.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming annotations-13.0.jar (org.jetbrains:annotations:13.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-model-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-model:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-1.9.25-gradle82.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming plugin-2024.2.3.jar (org.jetbrains.qodana:plugin:2024.2.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming gradle-changelog-plugin-2.2.1.jar (org.jetbrains.intellij.plugins:gradle-changelog-plugin:2.2.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-idea-proto-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-idea-proto:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-idea-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-idea:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-klib-commonizer-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-klib-commonizer-api:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-native-utils-1.9.25.jar (org.jetbrains.kotlin:kotlin-native-utils:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-util-klib-1.9.25.jar (org.jetbrains.kotlin:kotlin-util-klib:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-build-tools-api-1.9.25.jar (org.jetbrains.kotlin:kotlin-build-tools-api:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-android-extensions-1.9.25.jar (org.jetbrains.kotlin:kotlin-android-extensions:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-compiler-runner-1.9.25.jar (org.jetbrains.kotlin:kotlin-compiler-runner:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-compiler-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-compiler-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-compiler-impl-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming undertow-core-2.3.17.Final.jar (io.undertow:undertow-core:2.3.17.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kover-jvm-agent-0.8.3.jar (org.jetbrains.kotlinx:kover-jvm-agent:0.8.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-annotations-1.9.25.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-annotations:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-tooling-core-1.9.25.jar (org.jetbrains.kotlin:kotlin-tooling-core:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-project-model-1.9.25.jar (org.jetbrains.kotlin:kotlin-project-model:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-daemon-embeddable-1.9.25.jar (org.jetbrains.kotlin:kotlin-daemon-embeddable:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-util-io-1.9.25.jar (org.jetbrains.kotlin:kotlin-util-io:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming trove4j-1.0.20200330.jar (org.jetbrains.intellij.deps:trove4j:1.0.20200330) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-daemon-client-1.9.25.jar (org.jetbrains.kotlin:kotlin-daemon-client:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-jvm-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlinx-coroutines-core-jvm-1.5.0.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-common-1.9.25.jar (org.jetbrains.kotlin:kotlin-scripting-common:1.9.25) with ExternalDependencyInstrumentingArtifactTransform
+Transforming xnio-nio-3.8.16.Final.jar (org.jboss.xnio:xnio-nio:3.8.16.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming xnio-api-3.8.16.Final.jar (org.jboss.xnio:xnio-api:3.8.16.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jboss-threads-3.5.0.Final.jar (org.jboss.threads:jboss-threads:3.5.0.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming wildfly-client-config-1.0.1.Final.jar (org.wildfly.client:wildfly-client-config:1.0.1.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jackson-databind-2.14.2.jar (com.fasterxml.jackson.core:jackson-databind:2.14.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jboss-logging-3.4.3.Final.jar (org.jboss.logging:jboss-logging:3.4.3.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jackson-annotations-2.14.2.jar (com.fasterxml.jackson.core:jackson-annotations:2.14.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jackson-core-2.14.2.jar (com.fasterxml.jackson.core:jackson-core:2.14.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jackson-module-kotlin-2.14.2.jar (com.fasterxml.jackson.module:jackson-module-kotlin:2.14.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming commons-compress-1.27.1.jar (org.apache.commons:commons-compress:1.27.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming xz-1.9.jar (org.tukaani:xz:1.9) with ExternalDependencyInstrumentingArtifactTransform
+Transforming evo-inflector-1.3.jar (org.atteo:evo-inflector:1.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming slf4j-api-2.0.7.jar (org.slf4j:slf4j-api:2.0.7) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jsoup-1.16.1.jar (org.jsoup:jsoup:1.16.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming commons-io-2.16.1.jar (commons-io:commons-io:2.16.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jaxb-runtime-2.3.1.jar (org.glassfish.jaxb:jaxb-runtime:2.3.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jaxb-api-2.3.1.jar (javax.xml.bind:jaxb-api:2.3.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jdom2-2.0.6.1.jar (org.jdom:jdom2:2.0.6.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming blockmap-1.0.5.jar (org.jetbrains.intellij:blockmap:1.0.5) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jaxb-impl-2.3.2.jar (com.sun.xml.bind:jaxb-impl:2.3.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jaxb-core-2.3.0.jar (com.sun.xml.bind:jaxb-core:2.3.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming markdown-jvm-0.7.3.jar (org.jetbrains:markdown-jvm:0.7.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming commons-codec-1.17.1.jar (commons-codec:commons-codec:1.17.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming wildfly-common-1.5.4.Final.jar (org.wildfly.common:wildfly-common:1.5.4.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming commons-lang3-3.16.0.jar (org.apache.commons:commons-lang3:3.16.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming txw2-2.3.1.jar (org.glassfish.jaxb:txw2:2.3.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming javax.activation-api-1.2.0.jar (javax.activation:javax.activation-api:1.2.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming istack-commons-runtime-3.0.7.jar (com.sun.istack:istack-commons-runtime:3.0.7) with ExternalDependencyInstrumentingArtifactTransform
+Transforming stax-ex-1.8.jar (org.jvnet.staxex:stax-ex:1.8) with ExternalDependencyInstrumentingArtifactTransform
+Transforming FastInfoset-1.2.15.jar (com.sun.xml.fastinfoset:FastInfoset:1.2.15) with ExternalDependencyInstrumentingArtifactTransform
+Transforming intellij-coverage-agent-1.0.761.jar (org.jetbrains.intellij.deps:intellij-coverage-agent:1.0.761) with ExternalDependencyInstrumentingArtifactTransform
+Transforming freemarker-2.3.32.jar (org.freemarker:freemarker:2.3.32) with ExternalDependencyInstrumentingArtifactTransform
+Using Kotlin Gradle Plugin gradle82 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[org.jetbrains.intellij.platform] Configuring plugin: org.jetbrains.intellij.platform
+[org.jetbrains.intellij.platform] Configuring plugin: org.jetbrains.intellij.platform.base
+[org.jetbrains.intellij.platform] Configuring task: initializeIntellijPlatformPlugin
+[org.jetbrains.intellij.platform] Configuring task: printBundledPlugins
+[org.jetbrains.intellij.platform] Configuring task: printProductsReleases
+[org.jetbrains.intellij.platform] Configuring task: setupDependencies
+[org.jetbrains.intellij.platform] Configuring plugin: org.jetbrains.intellij.platform.module
+[org.jetbrains.intellij.platform] Configuring task: generateManifest
+[org.jetbrains.intellij.platform] Configuring task: jar
+[org.jetbrains.intellij.platform] Configuring task: instrumentCode
+[org.jetbrains.intellij.platform] Configuring task: instrumentTestCode
+[org.jetbrains.intellij.platform] Configuring task: instrumentedJar
+[org.jetbrains.intellij.platform] Configuring task: composedJar
+[org.jetbrains.intellij.platform] Configuring task: prepareSandbox
+[org.jetbrains.intellij.platform] Configuring task: prepareTestSandbox
+[org.jetbrains.intellij.platform] Configuring task: prepareTestIdePerformanceSandbox
+[org.jetbrains.intellij.platform] Configuring task: prepareTest
+[org.jetbrains.intellij.platform] Configuring task: test
+[org.jetbrains.intellij.platform] Configuring task: verifyPluginProjectConfiguration
+[org.jetbrains.intellij.platform] Configuring plugin configuration verification task
+[org.jetbrains.intellij.platform] Configuring task: patchPluginXml
+[org.jetbrains.intellij.platform] Configuring task: processResources
+[org.jetbrains.intellij.platform] Configuring task: buildSearchableOptions
+[org.jetbrains.intellij.platform] Configuring task: prepareJarSearchableOptions
+[org.jetbrains.intellij.platform] Configuring task: jarSearchableOptions
+[org.jetbrains.intellij.platform] Configuring task: buildPlugin
+[org.jetbrains.intellij.platform] Configuring task: testIdePerformance
+[org.jetbrains.intellij.platform] Configuring task: runIde
+[org.jetbrains.intellij.platform] Configuring task: verifyPlugin
+[org.jetbrains.intellij.platform] Configuring task: verifyPluginSignature
+[org.jetbrains.intellij.platform] Configuring task: verifyPluginStructure
+[org.jetbrains.intellij.platform] Configuring task: signPlugin
+[org.jetbrains.intellij.platform] Configuring task: publishPlugin
+Build cache key for Kotlin DSL script compilation (Project/TopLevel/stage2) is 65a4788de6eb1e9a4c7ee339d5b414b0
+Stored cache entry for Kotlin DSL script compilation (Project/TopLevel/stage2) with cache key 65a4788de6eb1e9a4c7ee339d5b414b0
+Transforming ideaIC-2024.1.dmg (idea:ideaIC:2024.1) with ExtractorTransformer
+[org.jetbrains.intellij.platform] Reading JetBrains IDEs releases from: https://www.jetbrains.com/updates/updates.xml
+[org.jetbrains.intellij.platform] Reading Android Studio releases from: https://jb.gg/android-studio-releases-list.xml
+[org.jetbrains.intellij.platform] Filtering releases with since='233', until='242.99999', types='IC', channels='RELEASE,EAP,RC'
+[org.jetbrains.intellij.platform] Resolved values: IC-2024.2.4,IC-2024.1.7,IC-2023.3.8
+
+Starting process 'command '/usr/libexec/java_home''. Working directory: /Users/vscjava/.gradle/daemon/8.10.2 Command: /usr/libexec/java_home -V
+Successfully started process 'command '/usr/libexec/java_home''
+All projects evaluated.
+Task name matched 'clean'
+Task name matched 'check'
+Selected primary task 'clean' from project :
+Selected primary task 'check' from project :
+Starting process 'command '/Users/vscjava/.gradle/caches/8.10.2/transforms/51be790bf1626561fcbc44052aeaf729/transformed/ideaIC-2024.1/jbr/Contents/Home/bin/java''. Working directory: /Users/vscjava/repos/simple-intellij-plugin Command: /Users/vscjava/.gradle/caches/8.10.2/transforms/51be790bf1626561fcbc44052aeaf729/transformed/ideaIC-2024.1/jbr/Contents/Home/bin/java -XshowSettings:properties -version
+Successfully started process 'command '/Users/vscjava/.gradle/caches/8.10.2/transforms/51be790bf1626561fcbc44052aeaf729/transformed/ideaIC-2024.1/jbr/Contents/Home/bin/java''
+Tasks to be executed: [task ':clean', task ':checkKotlinGradlePluginConfigurationErrors', task ':compileKotlin', task ':initializeIntellijPlatformPlugin', task ':patchPluginXml', task ':verifyPluginProjectConfiguration', task ':compileJava', task ':processResources', task ':classes', task ':generateManifest', task ':instrumentCode', task ':jar', task ':compileTestKotlin', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':instrumentTestCode', task ':koverFindJar', task ':instrumentedJar', task ':composedJar', task ':prepareTestSandbox', task ':prepareTest', task ':test', task ':koverGenerateArtifactJvm', task ':koverGenerateArtifact', task ':koverXmlReport', task ':koverCachedVerify', task ':koverVerify', task ':check']
+Tasks that were excluded: []
+Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.15.0/jna-5.15.0.pom to /Users/vscjava/.gradle/.tmp/gradle_download749858176882819059bin
+Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.15.0/jna-5.15.0.jar to /Users/vscjava/.gradle/.tmp/gradle_download117725558924112486bin
+Using local directory build cache for the root build (location = /Users/vscjava/.gradle/caches/build-cache-1, removeUnusedEntriesAfter = 7 days).
+Ignoring listeners of task graph ready event, as this build (:) has already executed work.
+Resolve mutations for :clean (Thread[Execution worker,5,main]) started.
+Resolve mutations for :checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 2,5,main]) started.
+:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 4,5,main]) started.
+:clean (Thread[Execution worker,5,main]) started.
+destroyer locations for task group 0 (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :koverFindJar (Thread[included builds,5,main]) started.
+
+> Task :checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':checkKotlinGradlePluginConfigurationErrors' because:
+  This task renders reported diagnostics; caching this task will hide diagnostics and obscure issues in the build
+Task ':checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :compileKotlin (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :clean
+Caching disabled for task ':clean' because:
+  Deletion cannot be cached
+Task ':clean' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+:compileKotlin (Thread[Execution worker,5,main]) started.
+Resolve mutations for :initializeIntellijPlatformPlugin (Thread[Execution worker Thread 4,5,main]) started.
+:koverFindJar (Thread[Execution worker Thread 5,5,main]) started.
+:initializeIntellijPlatformPlugin (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :initializeIntellijPlatformPlugin
+Transforming ideaIC-2024.1.dmg (idea:ideaIC:2024.1) with ExtractorTransformer
+Caching disabled for task ':initializeIntellijPlatformPlugin' because:
+  Task is untracked because: Should always run
+Task ':initializeIntellijPlatformPlugin' is not up-to-date because:
+  Task is untracked because: Should always run
+Resolve mutations for :patchPluginXml (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :generateManifest (Thread[Execution worker Thread 2,5,main]) started.
+:patchPluginXml (Thread[Execution worker Thread 4,5,main]) started.
+:generateManifest (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :generateManifest FROM-CACHE
+Build cache key for task ':generateManifest' is cc2dd2c1ef6769e02d8bc37be80db7c9
+Task ':generateManifest' is not up-to-date because:
+  Output property 'generatedManifest' file /Users/vscjava/repos/simple-intellij-plugin/build/tmp/generateManifest/MANIFEST.MF has been removed.
+Loaded cache entry for task ':generateManifest' with cache key cc2dd2c1ef6769e02d8bc37be80db7c9
+
+> Task :patchPluginXml FROM-CACHE
+Build cache key for task ':patchPluginXml' is fae9dc2fd1871f1f4a033f566dea6895
+Task ':patchPluginXml' is not up-to-date because:
+  Output property 'outputFile' file /Users/vscjava/repos/simple-intellij-plugin/build/tmp/patchPluginXml/plugin.xml has been removed.
+Loaded cache entry for task ':patchPluginXml' with cache key fae9dc2fd1871f1f4a033f566dea6895
+Resolve mutations for :verifyPluginProjectConfiguration (Thread[Execution worker Thread 2,5,main]) started.
+:verifyPluginProjectConfiguration (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :processResources (Thread[Execution worker Thread 4,5,main]) started.
+:processResources (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :processTestResources (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :koverFindJar FROM-CACHE
+Build cache key for task ':koverFindJar' is b5d259b2258735b6bcbddb1121e87382
+Task ':koverFindJar' is not up-to-date because:
+  Output property 'agentJar' file /Users/vscjava/repos/simple-intellij-plugin/build/kover/kover-jvm-agent-0.8.3.jar has been removed.
+Loaded cache entry for task ':koverFindJar' with cache key b5d259b2258735b6bcbddb1121e87382
+:processTestResources (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :processTestResources
+Caching disabled for task ':processTestResources' because:
+  Not worth caching
+Task ':processTestResources' is not up-to-date because:
+  Output property 'destinationDir' file /Users/vscjava/repos/simple-intellij-plugin/build/resources/test has been removed.
+  Output property 'destinationDir' file /Users/vscjava/repos/simple-intellij-plugin/build/resources/test/META-INF has been removed.
+  Output property 'destinationDir' file /Users/vscjava/repos/simple-intellij-plugin/build/resources/test/META-INF/plugin.xml has been removed.
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/test/resources', not found
+
+> Task :verifyPluginProjectConfiguration FROM-CACHE
+Build cache key for task ':verifyPluginProjectConfiguration' is 71b7fc48813896def17c78d40cc9c273
+Task ':verifyPluginProjectConfiguration' is not up-to-date because:
+  Output property 'reportDirectory' file /Users/vscjava/repos/simple-intellij-plugin/build/reports/verifyPluginConfiguration has been removed.
+  Output property 'reportDirectory' file /Users/vscjava/repos/simple-intellij-plugin/build/reports/verifyPluginConfiguration/report.txt has been removed.
+Loaded cache entry for task ':verifyPluginProjectConfiguration' with cache key 71b7fc48813896def17c78d40cc9c273
+
+> Task :processResources
+Caching disabled for task ':processResources' because:
+  Not worth caching
+Task ':processResources' is not up-to-date because:
+  Output property 'destinationDir' file /Users/vscjava/repos/simple-intellij-plugin/build/resources/main has been removed.
+  Output property 'destinationDir' file /Users/vscjava/repos/simple-intellij-plugin/build/resources/main/messages has been removed.
+  Output property 'destinationDir' file /Users/vscjava/repos/simple-intellij-plugin/build/resources/main/messages/MyBundle.properties has been removed.
+  and more...
+
+> Task :compileKotlin
+Transforming ideaIC-2024.1.dmg (idea:ideaIC:2024.1) with ExtractorTransformer
+Transforming ideaIC-2024.1.dmg (idea:ideaIC:2024.1) with CollectorTransformer
+Transforming jna-5.15.0.jar with ClasspathEntrySnapshotTransform
+Transforming platform-loader.jar with ClasspathEntrySnapshotTransform
+Transforming util-8.jar with ClasspathEntrySnapshotTransform
+Transforming util.jar with ClasspathEntrySnapshotTransform
+Transforming app-client.jar with ClasspathEntrySnapshotTransform
+Transforming util_rt.jar with ClasspathEntrySnapshotTransform
+Transforming opentelemetry.jar with ClasspathEntrySnapshotTransform
+Transforming app.jar with ClasspathEntrySnapshotTransform
+Transforming product-client.jar with ClasspathEntrySnapshotTransform
+Transforming modules.jar with ClasspathEntrySnapshotTransform
+Transforming lib-client.jar with ClasspathEntrySnapshotTransform
+Transforming stats.jar with ClasspathEntrySnapshotTransform
+Transforming jps-model.jar with ClasspathEntrySnapshotTransform
+Transforming external-system-rt.jar with ClasspathEntrySnapshotTransform
+Transforming rd.jar with ClasspathEntrySnapshotTransform
+Transforming bouncy-castle.jar with ClasspathEntrySnapshotTransform
+Transforming protobuf.jar with ClasspathEntrySnapshotTransform
+Transforming intellij-test-discovery.jar with ClasspathEntrySnapshotTransform
+Transforming intellij-coverage-agent-1.0.744.jar with ClasspathEntrySnapshotTransform
+Transforming forms_rt.jar with ClasspathEntrySnapshotTransform
+Transforming lib.jar with ClasspathEntrySnapshotTransform
+Transforming externalProcess-rt.jar with ClasspathEntrySnapshotTransform
+Transforming groovy.jar with ClasspathEntrySnapshotTransform
+Transforming annotations.jar with ClasspathEntrySnapshotTransform
+Transforming grpc.jar with ClasspathEntrySnapshotTransform
+Transforming idea_rt.jar with ClasspathEntrySnapshotTransform
+Transforming jsch-agent.jar with ClasspathEntrySnapshotTransform
+Transforming trove.jar with ClasspathEntrySnapshotTransform
+Build cache key for ClasspathEntrySnapshotTransform: /Users/vscjava/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.15.0/1ee1d80ff44f08280188f7c0e740d57207841ac/jna-5.15.0.jar is 5c7639ef7f43fbd6882f8ddb18a6b5e3
+Stored cache entry for ClasspathEntrySnapshotTransform: /Users/vscjava/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.15.0/1ee1d80ff44f08280188f7c0e740d57207841ac/jna-5.15.0.jar with cache key 5c7639ef7f43fbd6882f8ddb18a6b5e3
+Build cache key for task ':compileKotlin' is 956ab3d2a8f4d5126303c4a678464d4c
+Task ':compileKotlin' is not up-to-date because:
+  Output property 'classpathSnapshotProperties.classpathSnapshotDir' file /Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileKotlin/classpath-snapshot has been removed.
+  Output property 'classpathSnapshotProperties.classpathSnapshotDir' file /Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin has been removed.
+  Output property 'destinationDirectory' file /Users/vscjava/repos/simple-intellij-plugin/build/classes/kotlin/main has been removed.
+  and more...
+  and more...
+  and more...
+The input changes require a full rebuild for incremental task ':compileKotlin'.
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/main/java', not found
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/main/java', not found
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/main/java', not found
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/main/java', not found
+Kotlin source files: /Users/vscjava/repos/simple-intellij-plugin/src/main/kotlin/com/github/jiecmsft/simpleintellijplugin/toolWindow/MyToolWindowFactory.kt, /Users/vscjava/repos/simple-intellij-plugin/src/main/kotlin/com/github/jiecmsft/simpleintellijplugin/MyBundle.kt, /Users/vscjava/repos/simple-intellij-plugin/src/main/kotlin/com/github/jiecmsft/simpleintellijplugin/listeners/MyApplicationActivationListener.kt, /Users/vscjava/repos/simple-intellij-plugin/src/main/kotlin/com/github/jiecmsft/simpleintellijplugin/services/MyProjectService.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+i: found daemon on port 17993 (1410106 ms old), trying to connect
+i: connected to the daemon
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=false, modifiedFiles=null, deletedFiles=null, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=/Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileKotlin/cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=/Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileKotlin/local-state/build-history.bin, useModuleDetection=false), usePreciseJavaTracking=true, outputFiles=[/Users/vscjava/repos/simple-intellij-plugin/build/classes/kotlin/main, /Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileKotlin/cacheable, /Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileKotlin/local-state])
+Stored cache entry for task ':compileKotlin' with cache key 956ab3d2a8f4d5126303c4a678464d4c
+Resolve mutations for :compileJava (Thread[Execution worker,5,main]) started.
+:compileJava (Thread[Execution worker,5,main]) started.
+
+> Task :compileJava NO-SOURCE
+Skipping task ':compileJava' as it has no source files and no previous output files.
+Resolve mutations for :classes (Thread[Execution worker,5,main]) started.
+:classes (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :classes
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :instrumentCode (Thread[Execution worker Thread 4,5,main]) started.
+:instrumentCode (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :instrumentCode FROM-CACHE
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/main/java', not found
+Build cache key for task ':instrumentCode' is 4f76fd0d5f4e18b0a23bdfbfe7bea98f
+Task ':instrumentCode' is not up-to-date because:
+  Output property 'outputDirectory' file /Users/vscjava/repos/simple-intellij-plugin/build/instrumented/instrumentCode has been removed.
+  Output property 'outputDirectory' file /Users/vscjava/repos/simple-intellij-plugin/build/instrumented/instrumentCode/com has been removed.
+  Output property 'outputDirectory' file /Users/vscjava/repos/simple-intellij-plugin/build/instrumented/instrumentCode/com/github has been removed.
+  and more...
+  and more...
+Loaded cache entry for task ':instrumentCode' with cache key 4f76fd0d5f4e18b0a23bdfbfe7bea98f
+Resolve mutations for :jar (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :compileTestKotlin (Thread[Execution worker,5,main]) started.
+:jar (Thread[Execution worker Thread 4,5,main]) started.
+:compileTestKotlin (Thread[Execution worker,5,main]) started.
+
+> Task :jar
+Caching disabled for task ':jar' because:
+  Not worth caching
+Task ':jar' is not up-to-date because:
+  Output property 'archiveFile' file /Users/vscjava/repos/simple-intellij-plugin/build/libs/simple-intellij-plugin-0.0.1-base.jar has been removed.
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/build/classes/java/main', not found
+Resolve mutations for :instrumentedJar (Thread[Execution worker Thread 4,5,main]) started.
+:instrumentedJar (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :instrumentedJar
+Build cache key for task ':instrumentedJar' is e84e1d454ee7d9dd1d494aa764eacf76
+Task ':instrumentedJar' is not up-to-date because:
+  Output property 'archiveFile' file /Users/vscjava/repos/simple-intellij-plugin/build/libs/simple-intellij-plugin-0.0.1-instrumented.jar has been removed.
+Stored cache entry for task ':instrumentedJar' with cache key e84e1d454ee7d9dd1d494aa764eacf76
+Resolve mutations for :composedJar (Thread[Execution worker Thread 4,5,main]) started.
+:composedJar (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :composedJar
+Build cache key for task ':composedJar' is f280a20ae40077a80cc6101f63762f32
+Task ':composedJar' is not up-to-date because:
+  Output property 'archiveFile' file /Users/vscjava/repos/simple-intellij-plugin/build/libs/simple-intellij-plugin-0.0.1.jar has been removed.
+Stored cache entry for task ':composedJar' with cache key f280a20ae40077a80cc6101f63762f32
+Resolve mutations for :prepareTestSandbox (Thread[Execution worker Thread 4,5,main]) started.
+:prepareTestSandbox (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :prepareTestSandbox
+Caching disabled for task ':prepareTestSandbox' because:
+  Not worth caching
+Task ':prepareTestSandbox' is not up-to-date because:
+  Task.upToDateWhen is false.
+[org.jetbrains.intellij.platform] Preparing sandbox
+[org.jetbrains.intellij.platform] sandboxConfigDirectory = /Users/vscjava/repos/simple-intellij-plugin/build/idea-sandbox/IC-2024.1/config-test
+[org.jetbrains.intellij.platform] sandboxPluginsDirectory = /Users/vscjava/repos/simple-intellij-plugin/build/idea-sandbox/IC-2024.1/plugins-test
+[org.jetbrains.intellij.platform] sandboxLogDirectory = /Users/vscjava/repos/simple-intellij-plugin/build/idea-sandbox/IC-2024.1/log-test
+[org.jetbrains.intellij.platform] sandboxSystemDirectory = /Users/vscjava/repos/simple-intellij-plugin/build/idea-sandbox/IC-2024.1/system-test
+Resolve mutations for :prepareTest (Thread[Execution worker Thread 2,5,main]) started.
+:prepareTest (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :prepareTest
+Skipping task ':prepareTest' as it has no actions.
+
+> Task :compileTestKotlin
+Transforming jna-5.15.0.jar with ClasspathEntrySnapshotTransform
+Transforming platform-loader.jar with ClasspathEntrySnapshotTransform
+Transforming util-8.jar with ClasspathEntrySnapshotTransform
+Transforming util.jar with ClasspathEntrySnapshotTransform
+Transforming app-client.jar with ClasspathEntrySnapshotTransform
+Transforming util_rt.jar with ClasspathEntrySnapshotTransform
+Transforming opentelemetry.jar with ClasspathEntrySnapshotTransform
+Transforming app.jar with ClasspathEntrySnapshotTransform
+Transforming product-client.jar with ClasspathEntrySnapshotTransform
+Transforming modules.jar with ClasspathEntrySnapshotTransform
+Transforming lib-client.jar with ClasspathEntrySnapshotTransform
+Transforming stats.jar with ClasspathEntrySnapshotTransform
+Transforming jps-model.jar with ClasspathEntrySnapshotTransform
+Transforming external-system-rt.jar with ClasspathEntrySnapshotTransform
+Transforming rd.jar with ClasspathEntrySnapshotTransform
+Transforming bouncy-castle.jar with ClasspathEntrySnapshotTransform
+Transforming protobuf.jar with ClasspathEntrySnapshotTransform
+Transforming intellij-test-discovery.jar with ClasspathEntrySnapshotTransform
+Transforming intellij-coverage-agent-1.0.744.jar with ClasspathEntrySnapshotTransform
+Transforming forms_rt.jar with ClasspathEntrySnapshotTransform
+Transforming lib.jar with ClasspathEntrySnapshotTransform
+Transforming externalProcess-rt.jar with ClasspathEntrySnapshotTransform
+Transforming groovy.jar with ClasspathEntrySnapshotTransform
+Transforming annotations.jar with ClasspathEntrySnapshotTransform
+Transforming grpc.jar with ClasspathEntrySnapshotTransform
+Transforming idea_rt.jar with ClasspathEntrySnapshotTransform
+Transforming jsch-agent.jar with ClasspathEntrySnapshotTransform
+Transforming trove.jar with ClasspathEntrySnapshotTransform
+Transforming test-framework-241.14494.240.jar with ClasspathEntrySnapshotTransform
+Transforming junit-4.13.2.jar with ClasspathEntrySnapshotTransform
+Transforming test-framework-core-241.14494.240.jar with ClasspathEntrySnapshotTransform
+Transforming test-framework-common-241.14494.240.jar with ClasspathEntrySnapshotTransform
+Transforming hamcrest-core-1.3.jar with ClasspathEntrySnapshotTransform
+Build cache key for task ':compileTestKotlin' is 5c3c102af62eb52e69f7956e505e8ae5
+Task ':compileTestKotlin' is not up-to-date because:
+  Output property 'classpathSnapshotProperties.classpathSnapshotDir' file /Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileTestKotlin/classpath-snapshot has been removed.
+  Output property 'classpathSnapshotProperties.classpathSnapshotDir' file /Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileTestKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin has been removed.
+  Output property 'destinationDirectory' file /Users/vscjava/repos/simple-intellij-plugin/build/classes/kotlin/test has been removed.
+  and more...
+  and more...
+  and more...
+The input changes require a full rebuild for incremental task ':compileTestKotlin'.
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/test/java', not found
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/test/java', not found
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/test/java', not found
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/test/java', not found
+Kotlin source files: /Users/vscjava/repos/simple-intellij-plugin/src/test/kotlin/com/github/jiecmsft/simpleintellijplugin/MyPluginTest.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+i: found daemon on port 17993 (1411456 ms old), trying to connect
+i: connected to the daemon
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=false, modifiedFiles=null, deletedFiles=null, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=/Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileTestKotlin/cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=/Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileTestKotlin/local-state/build-history.bin, useModuleDetection=false), usePreciseJavaTracking=true, outputFiles=[/Users/vscjava/repos/simple-intellij-plugin/build/classes/kotlin/test, /Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileTestKotlin/cacheable, /Users/vscjava/repos/simple-intellij-plugin/build/kotlin/compileTestKotlin/local-state])
+Stored cache entry for task ':compileTestKotlin' with cache key 5c3c102af62eb52e69f7956e505e8ae5
+Resolve mutations for :compileTestJava (Thread[Execution worker,5,main]) started.
+:compileTestJava (Thread[Execution worker,5,main]) started.
+
+> Task :compileTestJava NO-SOURCE
+Skipping task ':compileTestJava' as it has no source files and no previous output files.
+Resolve mutations for :testClasses (Thread[Execution worker,5,main]) started.
+:testClasses (Thread[Execution worker,5,main]) started.
+
+> Task :testClasses
+Skipping task ':testClasses' as it has no actions.
+Resolve mutations for :instrumentTestCode (Thread[Execution worker,5,main]) started.
+:instrumentTestCode (Thread[Execution worker,5,main]) started.
+
+> Task :instrumentTestCode FROM-CACHE
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/src/test/java', not found
+Build cache key for task ':instrumentTestCode' is d29057410c293640722c4ce9b32448b7
+Task ':instrumentTestCode' is not up-to-date because:
+  Output property 'outputDirectory' file /Users/vscjava/repos/simple-intellij-plugin/build/instrumented/instrumentTestCode has been removed.
+  Output property 'outputDirectory' file /Users/vscjava/repos/simple-intellij-plugin/build/instrumented/instrumentTestCode/com has been removed.
+  Output property 'outputDirectory' file /Users/vscjava/repos/simple-intellij-plugin/build/instrumented/instrumentTestCode/com/github has been removed.
+  and more...
+  and more...
+Loaded cache entry for task ':instrumentTestCode' with cache key d29057410c293640722c4ce9b32448b7
+Resolve mutations for :test (Thread[Execution worker,5,main]) started.
+:test (Thread[Execution worker,5,main]) started.
+Gradle Test Executor 4 started executing tests.
+
+> Task :test
+Build cache key for task ':test' is 34732178375165797f6fca0239ffdc6d
+Task ':test' is not up-to-date because:
+  Task has failed previously.
+file or directory '/Users/vscjava/repos/simple-intellij-plugin/build/classes/java/test', not found
+Starting process 'Gradle Test Executor 4'. Working directory: /Users/vscjava/repos/simple-intellij-plugin Command: /Users/vscjava/.gradle/caches/8.10.2/transforms/51be790bf1626561fcbc44052aeaf729/transformed/ideaIC-2024.1/jbr/Contents/Home/bin/java -Daether.connector.resumeDownloads=false -Dapple.awt.application.appearance=system -Dide.show.tips.on.startup.default.value=false -Didea.classpath.index.enabled=false -Didea.config.path=/Users/vscjava/repos/simple-intellij-plugin/build/idea-sandbox/IC-2024.1/config-test -Didea.force.use.core.classloader=true -Didea.log.path=/Users/vscjava/repos/simple-intellij-plugin/build/idea-sandbox/IC-2024.1/log-test -Didea.paths.selector=IdeaIC2024.1 -Didea.platform.prefix=Idea -Didea.plugins.path=/Users/vscjava/repos/simple-intellij-plugin/build/idea-sandbox/IC-2024.1/plugins-test -Didea.system.path=/Users/vscjava/repos/simple-intellij-plugin/build/idea-sandbox/IC-2024.1/system-test -Didea.use.core.classloader.for.plugin.path=true -Didea.vendor.name=JetBrains -Dintellij.platform.runtime.repository.path=/Users/vscjava/.gradle/caches/8.10.2/transforms/51be790bf1626561fcbc44052aeaf729/transformed/ideaIC-2024.1/modules/module-descriptors.jar -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Djbr.catch.SIGABRT=true -Djdk.attach.allowAttachSelf=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.module.illegalAccess.silent=true -Djna.boot.library.path=/Users/vscjava/.gradle/caches/8.10.2/transforms/51be790bf1626561fcbc44052aeaf729/transformed/ideaIC-2024.1/lib/jna/amd64 -Djna.noclasspath=true -Djna.nosys=true -Dorg.gradle.internal.worker.tmpdir=/Users/vscjava/repos/simple-intellij-plugin/build/tmp/test/work -Dplugin.path=/Users/vscjava/repos/simple-intellij-plugin/build/idea-sandbox/IC-2024.1/plugins-test/simple-intellij-plugin -Dpty4j.preferred.native.folder=/Users/vscjava/.gradle/caches/8.10.2/transforms/51be790bf1626561fcbc44052aeaf729/transformed/ideaIC-2024.1/lib/pty4j -Dsplash=true -Dsun.io.useCanonCaches=false -Dsun.java2d.metal=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:+IgnoreUnrecognizedVMOptions -XX:CICompilerCount=2 -XX:ReservedCodeCacheSize=512m -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend -XX:SoftRefLRUPolicyMSPerMB=50 -javaagent:/Users/vscjava/repos/simple-intellij-plugin/build/coroutines-javaagent.jar --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED --add-opens=java.base/sun.security.util=ALL-UNNAMED --add-opens=java.base/sun.net.dns=ALL-UNNAMED --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED --add-opens=java.desktop/com.apple.eawt.event=ALL-UNNAMED --add-opens=java.desktop/com.apple.laf=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED --add-opens=java.desktop/sun.font=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED --add-opens=java.desktop/sun.lwawt=ALL-UNNAMED --add-opens=java.desktop/sun.lwawt.macosx=ALL-UNNAMED --add-opens=java.desktop/sun.swing=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED -javaagent:/Users/vscjava/repos/simple-intellij-plugin/build/kover/kover-jvm-agent-0.8.3.jar=file:/Users/vscjava/repos/simple-intellij-plugin/build/tmp/test/kover-agent.args @/Users/vscjava/.gradle/.tmp/gradle-worker-classpath10849317612519010124txt -Xms128m -Xmx2048m -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=en -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 4'
+Successfully started process 'Gradle Test Executor 4'
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+
+MyPluginTest > testXMLFile STANDARD_ERROR
+    Configuration file for j.u.l.LogManager does not exist: /Users/vscjava/.gradle/caches/8.10.2/transforms/51be790bf1626561fcbc44052aeaf729/transformed/ideaIC-2024.1/test-log.properties
+
+Gradle Test Executor 4 finished executing tests.
+
+> Task :test
+Finished generating test XML results (0.001 secs) into: /Users/vscjava/repos/simple-intellij-plugin/build/test-results/test
+Generating HTML test report...
+Finished generating test html results (0.002 secs) into: /Users/vscjava/repos/simple-intellij-plugin/build/reports/tests/test
+Stored cache entry for task ':test' with cache key 34732178375165797f6fca0239ffdc6d
+Resolve mutations for :koverGenerateArtifactJvm (Thread[Execution worker,5,main]) started.
+:koverGenerateArtifactJvm (Thread[Execution worker,5,main]) started.
+
+> Task :koverGenerateArtifactJvm
+Caching disabled for task ':koverGenerateArtifactJvm' because:
+  The task action is so quick that cache does not provide a benefit
+Task ':koverGenerateArtifactJvm' is not up-to-date because:
+  Output property 'artifactFile' file /Users/vscjava/repos/simple-intellij-plugin/build/kover/jvm.artifact has been removed.
+Resolve mutations for :koverGenerateArtifact (Thread[Execution worker,5,main]) started.
+:koverGenerateArtifact (Thread[Execution worker,5,main]) started.
+
+> Task :koverGenerateArtifact
+Caching disabled for task ':koverGenerateArtifact' because:
+  The task action is so quick that cache does not provide a benefit
+Task ':koverGenerateArtifact' is not up-to-date because:
+  Output property 'artifactFile' file /Users/vscjava/repos/simple-intellij-plugin/build/kover/.artifact has been removed.
+work action resolve .artifact (root project :) (Thread[Execution worker,5,main]) started.
+Resolve mutations for :koverXmlReport (Thread[Execution worker,5,main]) started.
+Resolve mutations for :koverCachedVerify (Thread[included builds,5,main]) started.
+:koverXmlReport (Thread[Execution worker,5,main]) started.
+:koverCachedVerify (Thread[included builds,5,main]) started.
+
+> Task :koverCachedVerify
+Build cache key for task ':koverCachedVerify' is 51589bb0a59c8e2745370196f52c51ff
+Task ':koverCachedVerify' is not up-to-date because:
+  Output property 'resultFile' file /Users/vscjava/repos/simple-intellij-plugin/build/reports/kover/verify.err has been removed.
+Stored cache entry for task ':koverCachedVerify' with cache key 51589bb0a59c8e2745370196f52c51ff
+Resolve mutations for :koverVerify (Thread[included builds,5,main]) started.
+
+> Task :koverXmlReport
+Build cache key for task ':koverXmlReport' is 8592287d403f42de3f952d807fb305d8
+Task ':koverXmlReport' is not up-to-date because:
+  Output property 'reportFile$kover_gradle_plugin' file /Users/vscjava/repos/simple-intellij-plugin/build/reports/kover/report.xml has been removed.
+Stored cache entry for task ':koverXmlReport' with cache key 8592287d403f42de3f952d807fb305d8
+:koverVerify (Thread[included builds,5,main]) started.
+
+> Task :koverVerify
+Caching disabled for task ':koverVerify' because:
+  Caching has been disabled for the task
+Task ':koverVerify' is not up-to-date because:
+  Task.upToDateWhen is false.
+Resolve mutations for :check (Thread[included builds,5,main]) started.
+:check (Thread[included builds,5,main]) started.
+
+> Task :check
+Skipping task ':check' as it has no actions.
+
+0 problems were found storing the configuration cache.
+
+See the complete report at file:///Users/vscjava/repos/simple-intellij-plugin/build/reports/configuration-cache/39ys5oisjxvm6l7giegmf530z/bqfoerlyj3uwm5pbjk5eukbha/configuration-cache-report.html
+
+BUILD SUCCESSFUL in 1m 3s
+23 actionable tasks: 17 executed, 6 from cache
+Watched directory hierarchies: [/Users/vscjava/repos/simple-intellij-plugin]
+Configuration cache entry stored.
